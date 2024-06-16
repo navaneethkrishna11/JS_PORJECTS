@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 110vh;
+    background: #428b5f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.music-player{
+    background-color:#F4DF4EFF;
+    width: 400px;
+    padding: 25px 35px;
+    text-align: center;
+    border-radius: 22px 22px 13px 13px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+nav .circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    color: #333;
+    box-shadow: 0 5px 10px #949398FF;
+    
+}
+.song-img{
+    width:220px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    height:200px;
+    box-shadow: 0 5px 10px #949398FF;
+
+}
+.music-player h1{
+    font-size: 20px;
+    font-weight: 400px;
+    color: #333;
+    margin-top: 20px;
+}
+.music-player p{
+    font-size: 13px;
+    color: #333;
+    
+}
+#progress{
+    -webkit-appearance: none;
+    width: 68%;
+    height: 6px;
+    background-color: rgb(68, 52, 31);
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 40px;
+}
+#progress::-webkit-slider-thumb{
+     -webkit-appearance: none;
+      background: #673840;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 8px solid #992222;
+      box-shadow: 0 5px 10px rgba(255, 26, 26,0.22);
+
+    
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls div{
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #992222;
+    box-shadow: 0 5px 10px#D6ED17FF;
+    cursor: pointer;
+    margin: 9px;
+}
+
+
+.controls div:nth-child(2){
+
+    transform: scale(1.5);
+    background: #00203FFF;
+    color: #fff;
+
+
+
+
+
+}
+
+
+
